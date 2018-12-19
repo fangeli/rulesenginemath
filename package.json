@@ -1,0 +1,21 @@
+{
+  "name": "rulesenginemath",
+  "version": "1.0.0",
+  "description": "rulesenginemath",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangeli/RulesEngineMath.git"
+  },
+  "author": "Fabio Angeli <fangelitech@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangeli/RulesEngineMath/issues"
+  },
+  "homepage": "https://github.com/fangeli/RulesEngineMath#readme"
+}
+
+ 
