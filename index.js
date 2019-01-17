@@ -1,20 +1,21 @@
 ﻿'use strict';
 
-console.log('Hello RulesEngineMath');
+console.log('I\'m the RulesEngineUtilMath');
 
 module.exports = {
 
-    area: function (width, height) {
-        return width * height;
-    },
     fromSQLToJS: function (exp) {
         var regolaJS = null;
         try {
 
             regolaJS = exp;
-            regolaJS = regolaJS.replace(/and/gi, " && ");
-            regolaJS = regolaJS.replace(/or/gi, " || ");
-            regolaJS = regolaJS.replace(/=/gi, " == ");
+            regolaJS = regolaJS.replace(/and/gi, "&&");
+            regolaJS = regolaJS.replace(/or/gi, "||");
+            regolaJS = regolaJS.replace(/=/gi, "==");
+
+            regolaJS = regolaJS.replace(/<==/gi, "<=");
+            regolaJS = regolaJS.replace(/>==/gi, ">=");
+
             regolaJS = " return " + regolaJS + " ; ";
 
         }
